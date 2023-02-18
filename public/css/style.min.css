@@ -304,6 +304,13 @@ section {
   animation-delay: .8s;
 }
 
+.jumbotron h1,
+p {
+  opacity: 0;
+  animation: 1s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
+  animation-delay: .8s;
+}
+
 .jumbotron-single h1 {
   font-size: 3rem !important;
 }
