@@ -1,5 +1,13 @@
 import Head from "next/head";
+import React, {useState, useEFfect} from "react";
 export default function McaicRegister() {
+    const [hydrated, setHydrated] = React.useState(false);
+	React.useEffect(() => {
+		setHydrated(true);
+	}, []);
+	if (!hydrated) {
+		return <div></div>;
+	}
     return (
         <div>
             <Head>

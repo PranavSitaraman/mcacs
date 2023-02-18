@@ -89,7 +89,7 @@ table tr:hover {
   text-align: center;
   border: none;
   outline: none;
-  transition: 0.4s;
+  transition: background-color 0.4s;
   font-size: 20px;
   position: relative;
 }
@@ -103,12 +103,21 @@ table tr:hover {
 /* Style the accordion panel. Note: hidden by default */
 .panel-s {
   color: black;
-  background-color: white;
   max-height: 0;
+  background-color: white;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
+  transition: max-height 2s;
   text-align: center;
   font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.accordion-s:hover+.panel-s {
+  max-height: 300px;
+}
+
+.panel-s:hover {
+  max-height: 300px;
 }
 
 .panel-s span {
@@ -243,8 +252,8 @@ section {
 
 .jumbotron {
   color: #fff;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -252,7 +261,7 @@ section {
   border-radius: 0;
   margin-bottom: 0;
   overflow: hidden;
-  min-height: 100vh;
+  max-height: 100vh;
 }
 
 @media (max-width: 767px) and (orientation: landscape) {
@@ -1031,15 +1040,14 @@ section {
 /*==============================
 =            CLIENT            =
 ==============================*/
-.client-slider .owl-nav {
-  display: none;
-}
-
-.client-slider .client-item {
-  padding: 0 40px
+.client-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .client-item {
+  margin: 0 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1048,6 +1056,8 @@ section {
 .client-item img {
   filter: brightness(1);
   transition: filter 0.2s;
+  width: 10vw;
+  height: 10vw;
 }
 
 .client-item span {
