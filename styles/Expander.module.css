@@ -1,0 +1,20 @@
+.expander {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  font-size: min(3vw, 1.2em);
+}
+.expander .header {
+  cursor: pointer;
+}
+.expander .header:hover {
+  text-decoration: underline;
+}
+.expander .header h1 {
+  margin-top: 1em;
+  font-weight: 500;
+  font-size: min(4vw, 1.7em);
+}
+.expander .text {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}

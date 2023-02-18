@@ -1,0 +1,179 @@
+.site {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.home-screen {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background: #FFFFFF;
+  color: #000000;
+  text-align: center;
+}
+.home-screen-inner {
+  width: 100%;
+  justify-self: center;
+  align-self: center;
+}
+.home-screen-inner .fancy-list {
+  margin-bottom: 2em;
+}
+.home-screen h1 {
+  font-size: 3em;
+  text-align: center;
+  margin: 0.25em 0;
+  font-weight: 600;
+}
+.home-screen h2 {
+  font-size: 2em;
+  text-align: center;
+  margin: 0.2em 0;
+  font-weight: 500;
+}
+.home-screen img {
+  height: 5em;
+  margin: 0 auto;
+  justify-self: center;
+}
+.home-screen .fancy-list {
+  font-size: 1.5em;
+}
+.home-screen .fancy-list span svg {
+  height: 0.7em;
+  padding: 0.15em 0.4em 0.15em 0.15em;
+  color: #E8B827;
+}
+.home-screen .buttons {
+  display: flex;
+  justify-content: center;
+  margin: 1em 1em;
+}
+
+.centered-v {
+  width: 100%;
+  align-self: center;
+}
+
+.centered-h {
+  width: 100%;
+  display: flex;
+  justify-self: center;
+}
+
+.fancy-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.2em;
+}
+
+.content-section {
+  background: #E8B827;
+  color: #000000;
+  text-align: center;
+  width: 100%;
+  padding: 2em 0;
+  overflow: visible;
+}
+.content-section-yellow {
+  background: #E8B827;
+  color: #000000;
+}
+.content-section-light {
+  background: #FFFFFF;
+  color: #000000;
+}
+.content-section-dark {
+  background: #000000;
+  color: #FFFFFF;
+}
+.content-section-inner {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 80em;
+}
+.content-section-inner-workshops {
+  text-align: left;
+}
+.content-section h1 {
+  font-size: max(2em, 4vw);
+  text-align: center;
+  margin: 0.25em 0;
+  padding: 0 0;
+  font-weight: 600;
+}
+.content-section h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin: 0.25em 0;
+  padding: 0 0;
+  font-weight: 600;
+}
+.content-section p {
+  font-size: min(1.7em, 4vw);
+}
+.content-section .section-logo {
+  width: min(16em, 50%);
+}
+.content-section .about-us {
+  margin: 1em 1.5em;
+  justify: center;
+  font-size: min(1.7em, 4vw);
+}
+.content-section .sponsors {
+  width: 40%;
+  margin: 1em;
+}
+.content-section .expander-group {
+  padding: 2em 0;
+}
+.content-section .expander-group hr {
+  border: 1px solid #000000;
+}
+.content-section .team-gallery {
+  display: flex;
+}
+.content-section .fancy-list {
+  font-size: 1.5em;
+  font-weight: 600;
+  row-gap: 0.2em;
+  margin: 2em 0 0 0;
+}
+.content-section .fancy-list span svg {
+  height: 0.8em;
+  padding: 0.1em 0.4em 0.1em 0.2em;
+}
+
+.sign-up-choice {
+  display: flex;
+  justify-self: center;
+}
+.sign-up-choice > div {
+  width: min(90%, 40em);
+}
+.sign-up-choice-outer {
+  display: flex;
+  justify-content: center;
+}
+
+.learn-more {
+  color: gray;
+  position: center;
+  bottom: 0;
+  width: 50%;
+  padding-bottom: 5%;
+}
+.learn-more a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+.learn-more h1 {
+  font-size: 2.5em;
+  font-weight: 300;
+}
+.learn-more svg {
+  height: 2em;
+}
+
+/*# sourceMappingURL=Home.module.css.map */
